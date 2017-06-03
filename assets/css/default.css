@@ -42,6 +42,7 @@ nav ul a {
 
 article {
     margin-left: 170px;
+    font-size: large;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
