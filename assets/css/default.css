@@ -31,6 +31,11 @@ nav {
     padding: 1em;
 }
 
+a {
+    color: black;
+    font-size: large;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -43,7 +48,6 @@ nav ul a {
 article {
     margin-left: 170px;
     font-size: large;
-    border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
 }
