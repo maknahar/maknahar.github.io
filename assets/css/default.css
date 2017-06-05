@@ -39,7 +39,7 @@ a {
     font-size: large;
 }
 
-p{
+p {
     margin: 1em;
 }
 
@@ -54,7 +54,7 @@ nav ul a {
 
 article {
     margin-left: 170px;
-    font-size: large;
+    font-size: 1.5em;
     padding: 1em;
     overflow: hidden;
 }
