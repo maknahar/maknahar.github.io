@@ -11,13 +11,14 @@ div.container {
 }
 
 .top {
-    padding: 1em;
+    padding: 0.25em;
     color: white;
     background-color: #4267b2;
     clear: left;
     text-align: center;
     position: fixed;
     min-width: 100%;
+    font-size: 30px;
 }
 
 .bottom {
