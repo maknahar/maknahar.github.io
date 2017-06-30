@@ -162,10 +162,10 @@ a {
 }
 
 #inputtext {
-    width: 580px;
+    width: 550px;
     background-color: #fff;
     height: 42px;
     vertical-align: top;
     font-size: small;
-    text-align: center;
+    text-align: left;
 }
