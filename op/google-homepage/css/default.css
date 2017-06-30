@@ -5,6 +5,13 @@
     background: transparent;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 #glogo {
     background: url('http://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
     background-size: 272px 92px;
@@ -12,7 +19,8 @@
     width: 272px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 109px;
+    margin-top: 152px;
+    margin-bottom: 1.5em;
 }
 
 #main-Header {
@@ -142,4 +150,22 @@
 a {
     text-decoration: none;
     color: #666;
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+}
+
+#inputtext {
+    width: 580px;
+    background-color: #fff;
+    height: 42px;
+    vertical-align: top;
+    font-size: small;
+    text-align: center;
 }
