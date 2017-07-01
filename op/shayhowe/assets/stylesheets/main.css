@@ -129,3 +129,31 @@ h1, h3, h4, h5, p {
     clear: both;
     *zoom: 1;
 }
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+    float: left;
+    border-top: 4px solid #648880;
+    padding: 40px 0 22px 0;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer small {
+    float: left;
+}
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
