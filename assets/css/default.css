@@ -70,7 +70,7 @@ nav ul a {
     text-decoration: none;
 }
 
-article {
+.main-articles {
     font-size: 1.5em;
     min-height: 500px;
     margin-bottom: 1em;
@@ -84,4 +84,50 @@ h1 {
 #articles {
     float: right;
     width: 78%;
+}
+
+/*
+  ========================================
+  Projects
+  ========================================
+*/
+
+.projects {
+
+}
+
+.project-status {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 1em 0 0 1em;
+    font-weight: bold;
+}
+
+.project {
+    margin: 0 0 2em 2em;
+    max-width: 40%;
+    display: inline-block;
+    /*border: #d1d5da solid 1px;*/
+    border-radius: 3px;
+    padding: 1em;
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #293f50;
+}
+
+.project-desc {
+    font-size: .7em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.projects-tag {
+    font-size: 0.5em;
+    background-color: #E1ECF4;
+    color: #39739d;
+    padding: 0.5em;
 }
