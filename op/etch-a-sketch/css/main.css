@@ -1,0 +1,24 @@
+#main-header {
+    margin: 40px auto;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+}
+
+#main-footer {
+    position: fixed;
+    width: 100%;
+    margin: 40px auto 0px auto;
+    padding: 10px 0;
+    text-align: center;
+    bottom: 0;
+    background-color: #7c7779;
+}
+
+#container {
+    width: 508px;
+    height: 508px;
+    margin: 0 auto;
+    border: solid 10px red;
+}
