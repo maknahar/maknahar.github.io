@@ -14,9 +14,12 @@ $(document).ready(function () {
 })
 
 function promptResponse() {
-    squareCount = prompt("Please Square Count (1-64)", "64");
-    resetContainer();
-    $('#reset-layout').val(squareCount);
+    var out = prompt("Please Square Count (1-64)", "64");
+    if (out.isNumeric()) {
+        squareCount = out
+        resetContainer();
+        $('#reset-layout').val(squareCount);
+    }
 }
 
 function inputResponse() {
