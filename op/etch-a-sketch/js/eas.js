@@ -9,7 +9,18 @@ $(document).ready(function () {
     $('#reset-button').on('click', resetContainer);
 })
 
+
 function resetContainer() {
+
+    squareCount = $('#reset-layout').val();
+    if (squareCount > 64) {
+        squareCount = 64;
+        $('#reset-layout').val(64);
+    } else if (squareCount < 1) {
+        squareCount = 1;
+        $('#reset-layout').val(1);
+    }
+
     var width = 100 / squareCount;
     var container = $('#container');
     container.find('.square').remove();

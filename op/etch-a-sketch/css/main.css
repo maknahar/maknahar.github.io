@@ -34,8 +34,7 @@
     background-color: silver;
 }
 
-#reset-button {
-    display: block;
-    margin: 1px auto;
+.head-buttons {
+    text-align: center;
+    margin-bottom: 10px;
 }
-
