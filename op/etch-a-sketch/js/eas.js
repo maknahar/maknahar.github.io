@@ -4,7 +4,9 @@ $(document).ready(function () {
     resetContainer()
     var container = $('#container');
     container.on("mouseenter", '.square', function () {
-        $(this).css("background-color", "silver");
+        var back = ["#ff0000", "blue", "gray"];
+        var rand = back[Math.floor(Math.random() * back.length)];
+        $(this).css('background', rand);
     });
     // container.find('.square').mouseenter(function () {
     //     $(this).css("background-color", "silver");
