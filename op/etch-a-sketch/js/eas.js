@@ -1,4 +1,4 @@
-var squareCount = 64;
+var squareCount = 6;
 
 $(document).ready(function () {
     resetContainer()
@@ -19,7 +19,7 @@ $(document).ready(function () {
 
 function promptResponse() {
     var out = prompt("Please Square Count (1-64)", "64");
-    if (out.isNumeric()) {
+    if ($.isNumeric(out)) {
         squareCount = out
         resetContainer();
         $('#reset-layout').val(squareCount);
