@@ -2,6 +2,10 @@ var squareCount = 64;
 
 $(document).ready(function () {
     resetContainer()
+    var container = $('#container');
+    container.find('.square').mouseenter(function () {
+        $(this).css("background-color", "silver");
+    });
 })
 
 function resetContainer() {
