@@ -34,4 +34,8 @@
     background-color: silver;
 }
 
+#reset-button {
+    display: block;
+    margin: 1px auto;
+}
 

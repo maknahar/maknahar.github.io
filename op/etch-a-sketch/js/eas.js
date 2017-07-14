@@ -6,6 +6,7 @@ $(document).ready(function () {
     container.find('.square').mouseenter(function () {
         $(this).css("background-color", "silver");
     });
+    $('#reset-button').on('click', resetContainer);
 })
 
 function resetContainer() {
