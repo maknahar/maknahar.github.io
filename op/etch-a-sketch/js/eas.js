@@ -3,15 +3,17 @@ var squareCount = 64;
 $(document).ready(function () {
     resetContainer()
     var container = $('#container');
-    container.find('.square').mouseenter(function () {
+    container.on("mouseenter", '.square', function () {
         $(this).css("background-color", "silver");
     });
+    // container.find('.square').mouseenter(function () {
+    //     $(this).css("background-color", "silver");
+    // });
     $('#reset-button').on('click', resetContainer);
 })
 
 
 function resetContainer() {
-
     squareCount = $('#reset-layout').val();
     if (squareCount > 64) {
         squareCount = 64;
