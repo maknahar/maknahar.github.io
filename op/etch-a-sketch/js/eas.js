@@ -4,9 +4,9 @@ $(document).ready(function () {
     resetContainer()
     var container = $('#container');
     container.on("mouseenter", '.square', function () {
-        var back = ["#ff0000", "blue", "gray"];
-        var rand = back[Math.floor(Math.random() * back.length)];
-        $(this).css('background', rand);
+        var rand = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
+        var color = '#' + rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)];
+        $(this).css('background', color);
     });
     // container.find('.square').mouseenter(function () {
     //     $(this).css("background-color", "silver");
