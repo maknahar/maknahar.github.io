@@ -9,12 +9,23 @@ $(document).ready(function () {
     // container.find('.square').mouseenter(function () {
     //     $(this).css("background-color", "silver");
     // });
-    $('#reset-button').on('click', resetContainer);
+    $('#reset-button').on('click', inputResponse);
+    $('#reset-prompt').on('click', promptResponse);
 })
+
+function promptResponse() {
+    squareCount = prompt("Please Square Count (1-64)", "64");
+    resetContainer();
+    $('#reset-layout').val(squareCount);
+}
+
+function inputResponse() {
+    squareCount = $('#reset-layout').val();
+    resetContainer();
+}
 
 
 function resetContainer() {
-    squareCount = $('#reset-layout').val();
     if (squareCount > 64) {
         squareCount = 64;
         $('#reset-layout').val(64);
