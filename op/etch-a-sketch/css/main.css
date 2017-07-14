@@ -17,8 +17,21 @@
 }
 
 #container {
-    width: 508px;
-    height: 508px;
+    width: 590px;
+    height: 590px;
     margin: 0 auto;
-    border: solid 10px red;
+    font-size: 0;
 }
+
+.square {
+    background-color: white;
+    display: inline-block;
+    border: none;
+    font-size: 0;
+}
+
+.square:hover {
+    background-color: silver;
+}
+
+
