@@ -10,8 +10,11 @@ $(document).ready(function () {
             color = '#' + rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)] +
                 rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)] +
                 rand[Math.ceil(Math.random() * 15)] + rand[Math.ceil(Math.random() * 15)];
+        } else {
+            color = $('#selectcolor').val()
         }
         $(this).css('background', color);
+        $('#main-header').css("color", color);
     });
     // container.find('.square').mouseenter(function () {
     //     $(this).css("background-color", "silver");
