@@ -16,18 +16,20 @@
 
 #main-footer {
     width: 100%;
-    margin: 40px auto 0px auto;
-    padding: 10px 0;
+    margin: 100px auto 0px auto;
+    padding: 20px 0;
     text-align: center;
+    display: block;
     bottom: 0;
     background-color: #7c7779;
 }
 
 #container {
-    width: 590px;
-    height: 590px;
+    width: 512px;
+    height: 512px;
     margin: 0 auto;
     font-size: 0;
+    border: 1px solid red;
 }
 
 .square {

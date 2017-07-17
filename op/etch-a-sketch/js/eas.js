@@ -44,8 +44,11 @@ function resetContainer() {
         $('#reset-layout').val(1);
     }
 
-    var width = 100 / squareCount;
+
     var container = $('#container');
+    var width = 100 / squareCount;
+    //alert(container.height())
+    var height = 100 / squareCount;
     container.find('.square').remove();
 
     for (var i = 0; i < squareCount * squareCount; i++) {
@@ -53,5 +56,5 @@ function resetContainer() {
     }
 
     var square = container.find('.square');
-    square.css({"height": width + '%', width: width + '%'});
+    square.css({height: height + '%', width: width + '%'});
 }
